@@ -8,5 +8,5 @@ The given files contains a coded algorithm for a program of "OMR Evaluation" Wit
 
 direction to use 
 //1: The code are given in cpp file you can either download it or copy it from here
-//2: Two same txt files are given before and after the code run 
+//2: The code contain txt file and a basic printing format of data 
 //3: The file will be generated with the name "Data.txt" for changing it you have to change it code
