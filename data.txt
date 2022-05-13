@@ -1,1 +1,7 @@
 T   P   N   Equa    TotalMarks
+//you can write these for better analysis of data
+//T=total question run in code;
+//P=total positive question;
+//N=total negative question;
+//Equa= here is equation showing positive - negative marks
+//TotalMarks=Total final marks 
