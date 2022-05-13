@@ -1,6 +1,10 @@
-T   P   N   Equa    TotalMarks
-10	5	5	20-5  	15
-10	6	4	24-4  	20
-
-10	4	6	16-6  	10
-10	6	4	24-4  	20
+T   P N Equa    TotalMarks
+10	5	5	20-5  	15//1a
+10	6	4	24-4  	20//1b
+//space represent student has changed
+10	4	6	16-6  	10//2a
+10	6	4	24-4  	20//2b
+//1a 1b are same student analysis but of different section same foe 2a 2b
+//T =total number of question evaluated in code;
+//P =total positive questions
+//N =total negative questions
