@@ -32,6 +32,7 @@ int main () {
     Sleep(500);
     system("CLS");
 ReRun:
+    cout<<"ENTER \'0\' AFTER COMPLETION"<<endl;
     int iterator=0;
     do
     {
@@ -87,6 +88,7 @@ ReRun:
             }
             else if (falana=='0')
             {
+		f<<"\n";
                 f.close();
                 exit(0);
             }
