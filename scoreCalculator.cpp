@@ -93,6 +93,10 @@ ReRun:
                 exit(0);
             }
         }
+	else
+        {
+            cout<<"WRONG INPUT";
+        }
         cout<<endl;
 
     } while (Input!=0);
