@@ -95,7 +95,8 @@ ReRun:
         }
 	else
         {
-            cout<<"WRONG INPUT";
+            cout<<"WRONG INPUT :< ";
+	    cout<<"PRESS \""<<PositiveSYMBOL<<"\" OR \""<<NegativeSYMBOL<<"\"";
         }
         cout<<endl;
 
