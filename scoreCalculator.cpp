@@ -60,10 +60,24 @@ ReRun:
             printf("%d - %d\n",positiveNO*4,NegativeNo);
             cout<<"Total marks are: "<<TotalMarks;
             cout<<endl;
-            //creation of file and updating data there 
+	    //file creation code and condition
+            FILE *p;
+            p = fopen("data.txt","r");
             ofstream f;
-            // f.open("data.txt",ios::in|ios::out);
-            f.open("data.txt",std::ios_base::app);//append code 
+            if (p==NULL)
+            {
+                p = fopen("data.txt","w");
+                fclose(p);   
+                //printing basic format of writing
+                f.open("data.txt",std::ios_base::app);//append code
+                f<<"T "<<"\t"<<"P "<<"\t"<<"N "<<"\t"<<"EQN "<<"\t"<<"TOTAL"<<"\n";
+            }
+            else
+            {
+                fclose(p);
+                //updating data on file  
+                f.open("data.txt",std::ios_base::app);//append code
+            } 
             f<<positiveNO+NegativeNo<<"\t"<<positiveNO<<"\t"<<NegativeNo<<"\t"<<positiveNO*4<<"-"<<NegativeNo<<"  \t"<<TotalMarks<<"\n";
             
             cout<<"\n1: ReRun for same student differnt section;\n2: ReRun for different student;\n0: End code\nEnter your choice: ";
